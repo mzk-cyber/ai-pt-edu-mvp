@@ -1,0 +1,171 @@
+{
+  "hawkins_kennedy": {
+    "name_cn": "Hawkins-Kennedy 撞击征",
+    "name_en": "Hawkins-Kennedy test",
+    "synonyms": ["Hawkins", "HK test", "霍金斯-肯尼迪", "撞击征"],
+    "region_tags": ["shoulder"]
+  },
+  "neer": {
+    "name_cn": "Neer 撞击试验",
+    "name_en": "Neer test",
+    "synonyms": ["Neer", "尼尔试验"],
+    "region_tags": ["shoulder"]
+  },
+  "painful_arc": {
+    "name_cn": "疼痛弧（60–120°外展）",
+    "name_en": "Painful arc",
+    "synonyms": ["painful arc", "疼痛弧"],
+    "region_tags": ["shoulder"]
+  },
+  "empty_can": {
+    "name_cn": "空罐试验",
+    "name_en": "Empty can (Jobe) test",
+    "synonyms": ["Jobe", "empty can", "空罐", "约伯试验"],
+    "region_tags": ["shoulder"]
+  },
+  "resisted_external_rotation": {
+    "name_cn": "抗阻外旋（疼痛/无力）",
+    "name_en": "Resisted external rotation",
+    "synonyms": ["resisted ER", "抗阻外旋"],
+    "region_tags": ["shoulder"]
+  },
+  "drop_arm": {
+    "name_cn": "落臂试验",
+    "name_en": "Drop arm test",
+    "synonyms": ["drop arm", "落臂"],
+    "region_tags": ["shoulder"]
+  },
+  "apprehension": {
+    "name_cn": "前方恐惧试验",
+    "name_en": "Apprehension test",
+    "synonyms": ["apprehension", "恐惧试验"],
+    "region_tags": ["shoulder"]
+  },
+  "relocation": {
+    "name_cn": "复位缓解试验",
+    "name_en": "Relocation test",
+    "synonyms": ["relocation", "复位试验"],
+    "region_tags": ["shoulder"]
+  },
+  "ac_cross_body": {
+    "name_cn": "肩水平内收（AC 关节）",
+    "name_en": "Cross-body adduction test",
+    "synonyms": ["cross body", "水平内收", "AC test"],
+    "region_tags": ["shoulder"]
+  },
+  "active_rom_shoulder": {
+    "name_cn": "肩关节主动活动度（ROM）",
+    "name_en": "Shoulder AROM",
+    "synonyms": ["AROM", "主动ROM", "肩ROM"],
+    "region_tags": ["shoulder"]
+  },
+  "passive_rom_shoulder": {
+    "name_cn": "肩关节被动活动度（ROM）",
+    "name_en": "Shoulder PROM",
+    "synonyms": ["PROM", "被动ROM"],
+    "region_tags": ["shoulder"]
+  },
+  "spurling": {
+    "name_cn": "Spurling 试验",
+    "name_en": "Spurling test",
+    "synonyms": ["Spurling", "斯伯林试验"],
+    "region_tags": ["shoulder"]
+  },
+  "cervical_distraction": {
+    "name_cn": "颈椎牵引试验（症状缓解）",
+    "name_en": "Cervical distraction test",
+    "synonyms": ["distraction test", "颈牵引试验"],
+    "region_tags": ["shoulder"]
+  },
+  "ultt1": {
+    "name_cn": "上肢神经张力试验 ULTT1",
+    "name_en": "ULTT1 (median nerve bias)",
+    "synonyms": ["ULTT", "ULTT1", "上肢神经张力"],
+    "region_tags": ["shoulder"]
+  },
+  "patellar_grind": {
+    "name_cn": "髌股磨擦试验",
+    "name_en": "Patellar grind (Clarke) test",
+    "synonyms": ["Clarke test", "patellar grind", "髌股磨擦"],
+    "region_tags": ["knee"]
+  },
+  "step_down": {
+    "name_cn": "台阶下蹲/下台阶观察",
+    "name_en": "Step-down test",
+    "synonyms": ["step down", "下台阶"],
+    "region_tags": ["knee"]
+  },
+  "single_leg_squat": {
+    "name_cn": "单腿下蹲观察",
+    "name_en": "Single-leg squat",
+    "synonyms": ["SLS", "single leg squat", "单腿蹲"],
+    "region_tags": ["knee"]
+  },
+  "patellar_tendon_palpation": {
+    "name_cn": "髌腱压痛（触诊）",
+    "name_en": "Patellar tendon palpation",
+    "synonyms": ["patellar tendon palpation", "髌腱压痛"],
+    "region_tags": ["knee"]
+  },
+  "decline_squat": {
+    "name_cn": "单腿下斜板下蹲（髌腱负荷）",
+    "name_en": "Single-leg decline squat",
+    "synonyms": ["decline squat", "下斜板下蹲"],
+    "region_tags": ["knee"]
+  },
+  "lachman": {
+    "name_cn": "Lachman 试验",
+    "name_en": "Lachman test",
+    "synonyms": ["Lachman", "拉赫曼"],
+    "region_tags": ["knee"]
+  },
+  "anterior_drawer": {
+    "name_cn": "前抽屉试验",
+    "name_en": "Anterior drawer test",
+    "synonyms": ["anterior drawer", "前抽屉"],
+    "region_tags": ["knee"]
+  },
+  "valgus_stress": {
+    "name_cn": "外翻应力试验（MCL）",
+    "name_en": "Valgus stress test",
+    "synonyms": ["valgus stress", "外翻应力"],
+    "region_tags": ["knee"]
+  },
+  "varus_stress": {
+    "name_cn": "内翻应力试验（LCL）",
+    "name_en": "Varus stress test",
+    "synonyms": ["varus stress", "内翻应力"],
+    "region_tags": ["knee"]
+  },
+  "mcmurray": {
+    "name_cn": "McMurray 试验",
+    "name_en": "McMurray test",
+    "synonyms": ["McMurray", "麦克默里"],
+    "region_tags": ["knee"]
+  },
+  "thessaly": {
+    "name_cn": "Thessaly 试验",
+    "name_en": "Thessaly test",
+    "synonyms": ["Thessaly", "塞萨利"],
+    "region_tags": ["knee"]
+  },
+  "joint_line_tenderness": {
+    "name_cn": "关节线压痛",
+    "name_en": "Joint line tenderness",
+    "synonyms": ["JLT", "joint line tenderness", "关节线压痛"],
+    "region_tags": ["knee"]
+  },
+  "knee_rom": {
+    "name_cn": "膝关节活动度（ROM）",
+    "name_en": "Knee ROM",
+    "synonyms": ["knee ROM", "膝ROM"],
+    "region_tags": ["knee"]
+  },
+  "effusion_bulge": {
+    "name_cn": "积液/浮髌（观察/波动试验）",
+    "name_en": "Effusion (bulge sign)",
+    "synonyms": ["bulge sign", "effusion", "浮髌", "积液"],
+    "region_tags": ["knee"]
+  }
+}
+

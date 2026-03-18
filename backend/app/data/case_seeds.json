@@ -1,0 +1,547 @@
+[
+  {
+    "id": "sh_rcrsp_001",
+    "region": "shoulder",
+    "pattern_truth_cn": "肩袖相关肩痛（负荷相关痛）",
+    "pattern_truth_en": "RCRSP (rotator cuff–related shoulder pain)",
+    "variant_tags": ["daily", "overuse"],
+    "complaint_cn": "右肩外侧痛，抬手拿东西时更明显。",
+    "initial_story_cn": "患者（32岁）近3周右肩外侧疼痛，近期开始做引体向上与俯卧撑，训练量明显增加。外展抬手到肩高附近疼痛加重，夜间偶有翻身痛但不持续。无明显外伤史。",
+    "key_terms_en": ["load management", "RCRSP", "painful arc"],
+    "include_red_flags_ok": false,
+    "history_by_topic": {
+      "mechanism": "近期上肢推拉训练量增加（每周2次→5次），无单次明确外伤。",
+      "location": "疼痛主要在肩外侧上臂近端，偶有肩前方酸胀。",
+      "aggravating": "外展抬手、过顶取物、俯卧撑、侧卧压到患侧时更痛。",
+      "easing": "减少训练、热敷后稍缓解；完全休息会好一些但一练又加重。",
+      "24h": "白天活动相关，夜间翻身偶痛；晨僵不明显。",
+      "neuro": "无放射性麻木，无手指刺痛，无握力下降。",
+      "red_flags": "无发热、体重下降、夜间静息痛持续加重等情况。",
+      "past": "无肩部手术史；久坐办公，偶有颈肩紧张。",
+      "goals": "希望恢复正常训练与日常过顶取物不痛。"
+    },
+    "exam_evidence_table": {
+      "hawkins_kennedy": { "result": "positive", "interp_cn": "撞击相关症状可被诱发，支持肩袖相关疼痛模式。"},
+      "neer": { "result": "positive", "interp_cn": "过顶被动抬举诱发疼痛，与肩袖相关疼痛一致。"},
+      "painful_arc": { "result": "positive", "quant": { "arc_deg": "70–110" }, "interp_cn": "出现疼痛弧（painful arc），常见于肩袖相关肩痛。"},
+      "empty_can": { "result": "equivocal", "quant": { "pain": "mild", "strength": "near normal" }, "interp_cn": "轻度疼痛但力量尚可，更像疼痛抑制而非明显撕裂。"},
+      "drop_arm": { "result": "negative", "interp_cn": "无明显落臂，降低大撕裂可能。"}
+    }
+  },
+  {
+    "id": "sh_rcrsp_002",
+    "region": "shoulder",
+    "pattern_truth_cn": "肩袖相关肩痛（高激惹性）",
+    "pattern_truth_en": "RCRSP (high irritability)",
+    "variant_tags": ["work"],
+    "complaint_cn": "左肩外侧痛，工作反复抬举时明显。",
+    "initial_story_cn": "患者（45岁）在仓库工作，近2月反复抬举搬运后左肩外侧痛逐渐加重。近期疼痛更敏感，抬到肩高就痛，睡觉侧卧也难。无明确外伤。",
+    "key_terms_en": ["irritability", "RCRSP"],
+    "include_red_flags_ok": false,
+    "history_by_topic": {
+      "mechanism": "反复抬举搬运（过顶）逐渐累积，无单次外伤。",
+      "location": "肩外侧为主，向上臂外侧放散。",
+      "aggravating": "过顶、提重物、穿衣外旋外展、侧卧压迫。",
+      "easing": "减少负荷、避免过顶会缓解；止痛药偶用有效。",
+      "24h": "夜间痛更明显，翻身会醒；早晨略僵但活动后好转。",
+      "neuro": "无麻木刺痛。",
+      "red_flags": "无发热/肿胀明显/近期外伤。",
+      "past": "既往有肩周围酸痛但未就诊。",
+      "goals": "希望能继续工作并减少夜间痛。"
+    },
+    "exam_evidence_table": {
+      "hawkins_kennedy": { "result": "positive", "interp_cn": "诱发明显疼痛，支持撞击相关/肩袖相关疼痛。"},
+      "neer": { "result": "positive", "interp_cn": "过顶被动抬举诱发痛。"},
+      "resisted_external_rotation": { "result": "equivocal", "quant": { "pain": "moderate", "strength": "slightly reduced" }, "interp_cn": "疼痛抑制导致力量略降，不一定代表结构性撕裂。"},
+      "drop_arm": { "result": "negative", "interp_cn": "降低大撕裂可能。"}
+    }
+  },
+  {
+    "id": "sh_rcrsp_003",
+    "region": "shoulder",
+    "pattern_truth_cn": "肩袖相关肩痛（外旋力量受影响）",
+    "pattern_truth_en": "RCRSP (ER pain/weakness)",
+    "variant_tags": ["daily"],
+    "complaint_cn": "右肩外侧痛，拿东西外旋或把手伸到身后会痛。",
+    "initial_story_cn": "患者（40岁）近6周右肩外侧痛。起初只是过顶取物酸痛，最近连把手伸到身后（例如扣安全带、把手伸到后座）也会痛。无明确外伤。夜间痛不明显。",
+    "key_terms_en": ["RCRSP", "external rotation"],
+    "include_red_flags_ok": false,
+    "history_by_topic": {
+      "mechanism": "逐渐出现，无外伤；最近家务与提拉动作增多。",
+      "location": "肩外侧为主。",
+      "aggravating": "过顶、把手伸到身后、抗阻外旋、侧卧压迫。",
+      "easing": "减少负荷与热敷缓解。",
+      "24h": "活动相关，夜间影响较小。",
+      "neuro": "无麻木刺痛。",
+      "red_flags": "无发热、体重下降、持续静息夜间痛。",
+      "past": "无肩部手术史。",
+      "goals": "日常动作不痛，恢复上肢力量训练。"
+    },
+    "exam_evidence_table": {
+      "resisted_external_rotation": { "result": "positive", "quant": { "pain": "moderate", "strength": "reduced" }, "interp_cn": "抗阻外旋诱发痛/无力，支持肩袖相关疼痛（尤其后上方肩袖负荷）。"},
+      "empty_can": { "result": "equivocal", "quant": { "pain": "mild" }, "interp_cn": "可轻度疼痛但不一定明显无力。"},
+      "hawkins_kennedy": { "result": "positive", "interp_cn": "可诱发症状。"},
+      "drop_arm": { "result": "negative", "interp_cn": "降低大撕裂可能。"}
+    }
+  },
+  {
+    "id": "sh_rcrsp_004",
+    "region": "shoulder",
+    "pattern_truth_cn": "肩袖相关肩痛（以疼痛弧为主）",
+    "pattern_truth_en": "RCRSP (painful arc dominant)",
+    "variant_tags": ["work", "overuse"],
+    "complaint_cn": "抬手到某个角度会痛，超过或低于反而好一些。",
+    "initial_story_cn": "患者（36岁）做装修工作，近1月抬手刷墙/过顶作业后出现肩外侧痛。特点是外展抬手到某个角度最痛，继续抬高反而稍缓解。无麻木，无明显夜间痛。",
+    "key_terms_en": ["painful arc", "RCRSP"],
+    "include_red_flags_ok": false,
+    "history_by_topic": {
+      "mechanism": "过顶重复作业导致累积性疼痛。",
+      "location": "肩外侧上臂近端。",
+      "aggravating": "外展抬手到肩高附近、过顶持续工作。",
+      "easing": "休息、减少过顶作业缓解。",
+      "24h": "活动相关。",
+      "neuro": "无麻木刺痛。",
+      "red_flags": "无。",
+      "past": "无。",
+      "goals": "能完成工作且疼痛可控。"
+    },
+    "exam_evidence_table": {
+      "painful_arc": { "result": "positive", "quant": { "arc_deg": "60–120" }, "interp_cn": "典型疼痛弧提示肩袖相关疼痛/撞击相关特征。"},
+      "hawkins_kennedy": { "result": "positive", "interp_cn": "可诱发疼痛。"},
+      "neer": { "result": "equivocal", "interp_cn": "可能诱发但不一定强阳性。"},
+      "empty_can": { "result": "equivocal", "quant": { "pain": "mild" }, "interp_cn": "轻度疼痛，力量大致可。"}
+    }
+  },
+  {
+    "id": "sh_caps_001",
+    "region": "shoulder",
+    "pattern_truth_cn": "冻结肩模式（关节囊挛缩）",
+    "pattern_truth_en": "Adhesive capsulitis pattern",
+    "variant_tags": ["daily"],
+    "complaint_cn": "左肩逐渐僵硬，抬手和穿衣越来越困难。",
+    "initial_story_cn": "患者（52岁）近4个月左肩疼痛后逐渐出现活动受限，尤其是外旋和外展。无明确外伤。最近穿衣、梳头、扣内衣明显受限，夜间痛影响睡眠。",
+    "key_terms_en": ["adhesive capsulitis", "PROM"],
+    "include_red_flags_ok": false,
+    "history_by_topic": {
+      "mechanism": "起初是轻度肩痛，随后活动范围逐月变小，无外伤。",
+      "location": "肩前外侧深部痛，末端活动时更明显。",
+      "aggravating": "梳头、扣内衣、外旋动作、被动拉伸到末端。",
+      "easing": "轻度活动与热敷稍缓解，但总体越来越僵。",
+      "24h": "夜间痛更明显，清晨较僵。",
+      "neuro": "无麻木刺痛。",
+      "red_flags": "无发热、体重下降、肿胀明显。",
+      "past": "有2型糖尿病史（控制一般）。",
+      "goals": "恢复梳头穿衣与睡眠。"
+    },
+    "exam_evidence_table": {
+      "active_rom_shoulder": { "result": "positive", "quant": { "abduction_deg": 95, "external_rotation_deg": 20 }, "interp_cn": "主动ROM明显受限。"},
+      "passive_rom_shoulder": { "result": "positive", "quant": { "abduction_deg": 100, "external_rotation_deg": 25 }, "interp_cn": "被动ROM也受限，且外旋受限更明显，符合关节囊挛缩模式。"},
+      "hawkins_kennedy": { "result": "equivocal", "interp_cn": "可出现末端疼痛，但核心特征是PROM受限。"}
+    }
+  },
+  {
+    "id": "sh_caps_002",
+    "region": "shoulder",
+    "pattern_truth_cn": "冻结肩模式（疼痛期/高激惹）",
+    "pattern_truth_en": "Adhesive capsulitis (painful stage)",
+    "variant_tags": ["daily"],
+    "complaint_cn": "右肩夜间痛明显，活动越来越受限。",
+    "initial_story_cn": "患者（48岁）近2个月右肩夜间痛明显，白天抬手也痛。近期开始觉得肩越来越紧，外旋动作困难。无外伤史。",
+    "key_terms_en": ["irritability", "adhesive capsulitis"],
+    "include_red_flags_ok": false,
+    "history_by_topic": {
+      "mechanism": "无外伤，逐渐出现夜间痛与活动受限。",
+      "location": "肩前外侧深部痛。",
+      "aggravating": "夜间侧卧、外旋末端、上举到末端。",
+      "easing": "止痛药可部分缓解。",
+      "24h": "夜间痛突出，晨僵明显。",
+      "neuro": "无麻木刺痛。",
+      "red_flags": "无发热、体重下降等。",
+      "past": "甲状腺功能减退史。",
+      "goals": "减少夜间痛，恢复穿衣梳头。"
+    },
+    "exam_evidence_table": {
+      "passive_rom_shoulder": { "result": "positive", "quant": { "external_rotation_deg": 15, "abduction_deg": 90 }, "interp_cn": "PROM外旋/外展受限明显，支持冻结肩。"},
+      "active_rom_shoulder": { "result": "positive", "quant": { "external_rotation_deg": 10, "abduction_deg": 85 }, "interp_cn": "AROM与PROM都受限。"}
+    }
+  },
+  {
+    "id": "sh_ac_001",
+    "region": "shoulder",
+    "pattern_truth_cn": "AC 关节疼痛模式",
+    "pattern_truth_en": "AC joint pain pattern",
+    "variant_tags": ["sport"],
+    "complaint_cn": "右肩顶部痛，做卧推或手臂交叉更痛。",
+    "initial_story_cn": "患者（28岁）健身卧推后出现肩顶部局部疼痛，尤其在手臂水平内收或俯卧撑底部更痛。疼痛点较明确，外侧放散不明显。",
+    "key_terms_en": ["AC joint", "cross-body adduction"],
+    "include_red_flags_ok": false,
+    "history_by_topic": {
+      "mechanism": "卧推动作负荷增加后出现局部疼痛。",
+      "location": "肩峰附近/肩顶部局部点痛。",
+      "aggravating": "手臂交叉抱胸、卧推、俯卧撑、侧卧压到患侧。",
+      "easing": "避免卧推与局部冰敷后缓解。",
+      "24h": "活动相关，夜间偶有压痛。",
+      "neuro": "无麻木刺痛。",
+      "red_flags": "无发热、无外伤撞击史。",
+      "past": "无。",
+      "goals": "恢复卧推与日常不痛。"
+    },
+    "exam_evidence_table": {
+      "ac_cross_body": { "result": "positive", "interp_cn": "水平内收诱发肩顶部痛，支持 AC 关节疼痛模式。"},
+      "hawkins_kennedy": { "result": "negative", "interp_cn": "撞击诱发不明显，更偏向局部AC问题。"}
+    }
+  },
+  {
+    "id": "sh_instab_001",
+    "region": "shoulder",
+    "pattern_truth_cn": "肩前方不稳/不稳感模式",
+    "pattern_truth_en": "Anterior instability pattern",
+    "variant_tags": ["sport", "trauma"],
+    "complaint_cn": "右肩在外展外旋时有“要脱位”的不稳感。",
+    "initial_story_cn": "患者（21岁）打球时一次外展外旋姿势下肩部剧痛后出现不稳感，此后做投掷或手臂举高向后时会害怕，担心再脱位。平时静息痛不明显。",
+    "key_terms_en": ["instability", "apprehension"],
+    "include_red_flags_ok": false,
+    "history_by_topic": {
+      "mechanism": "运动中外展外旋位出现急性疼痛与不稳感。",
+      "location": "肩前方深部不适/不稳。",
+      "aggravating": "外展外旋、投掷、手臂向后撑。",
+      "easing": "避免特定姿势即可。",
+      "24h": "静息痛少，特定姿势诱发。",
+      "neuro": "无麻木刺痛。",
+      "red_flags": "无发热等。",
+      "past": "既往有一次轻微“闪一下”的感觉但未就医。",
+      "goals": "恢复打球与投掷，不再害怕。"
+    },
+    "exam_evidence_table": {
+      "apprehension": { "result": "positive", "interp_cn": "外展外旋位出现明显恐惧/不稳感，支持前方不稳。"},
+      "relocation": { "result": "positive", "interp_cn": "加后向支持后症状缓解，进一步支持不稳模式。"},
+      "hawkins_kennedy": { "result": "negative", "interp_cn": "撞击诱发不明显。"}
+    }
+  },
+  {
+    "id": "sh_cx_001",
+    "region": "shoulder",
+    "pattern_truth_cn": "颈源性牵涉/需神经根筛查模式",
+    "pattern_truth_en": "Cervical referred pain / radicular screen pattern",
+    "variant_tags": ["daily"],
+    "complaint_cn": "肩胛内侧酸痛伴上肢麻感，抬头或转头时更明显。",
+    "initial_story_cn": "患者（38岁）近1月颈肩酸痛，常从颈部到肩胛内侧，偶有上臂外侧麻感。久坐电脑后加重，抬头或转头时症状更明显。肩本身做过顶动作不一定痛。",
+    "key_terms_en": ["radiculopathy", "Spurling", "ULTT"],
+    "include_red_flags_ok": true,
+    "history_by_topic": {
+      "mechanism": "久坐低头工作后逐渐出现，无外伤。",
+      "location": "颈部到肩胛内侧，偶放射至上臂外侧。",
+      "aggravating": "颈部伸展/旋转、久坐低头。",
+      "easing": "休息、颈部放松后好转。",
+      "24h": "工作时更明显，休息缓解。",
+      "neuro": "偶有麻感，但无进行性无力；精细动作尚可。",
+      "red_flags": "无大小便异常、无进行性神经功能缺失、无发热体重下降。",
+      "past": "长期颈肩紧张史。",
+      "goals": "减少麻感与酸痛，能久坐工作不难受。"
+    },
+    "exam_evidence_table": {
+      "spurling": { "result": "positive", "interp_cn": "颈部压迫诱发上肢症状，提示神经根受刺激可能。"},
+      "cervical_distraction": { "result": "positive", "interp_cn": "牵引后症状缓解，支持颈源性因素。"},
+      "ultt1": { "result": "equivocal", "interp_cn": "轻度张力不适，需结合整体神经体征判断。"}
+    }
+  },
+  {
+    "id": "sh_scap_001",
+    "region": "shoulder",
+    "pattern_truth_cn": "肩胛运动控制/负荷相关疼痛模式",
+    "pattern_truth_en": "Scapular dyskinesis / motor control pattern",
+    "variant_tags": ["sport"],
+    "complaint_cn": "做过顶动作时肩后外侧不适，感觉肩胛“卡住”。",
+    "initial_story_cn": "患者（26岁）游泳训练后出现肩后外侧不适，描述为“卡卡的”，用力过顶时更明显。疼痛不强，但影响发力与动作顺畅。无夜间痛。",
+    "key_terms_en": ["scapular dyskinesis", "motor control"],
+    "include_red_flags_ok": false,
+    "history_by_topic": {
+      "mechanism": "过顶运动训练量增加后出现。",
+      "location": "肩后外侧不适，更多是动作不顺。",
+      "aggravating": "连续过顶、疲劳后更明显。",
+      "easing": "休息后缓解；做肩胛控制练习时感觉更稳。",
+      "24h": "疲劳相关，无明显夜间痛。",
+      "neuro": "无麻木刺痛。",
+      "red_flags": "无。",
+      "past": "既往肩痛史轻微。",
+      "goals": "恢复游泳训练，动作稳定。"
+    },
+    "exam_evidence_table": {
+      "empty_can": { "result": "negative", "interp_cn": "肩袖明显无力不突出。"},
+      "painful_arc": { "result": "equivocal", "interp_cn": "疼痛弧不典型，更像控制与负荷问题。"},
+      "hawkins_kennedy": { "result": "equivocal", "interp_cn": "可轻度不适，但不是主要限制因素。"}
+    }
+  },
+
+  {
+    "id": "kn_pfp_001",
+    "region": "knee",
+    "pattern_truth_cn": "髌股疼痛模式（负荷相关）",
+    "pattern_truth_en": "Patellofemoral pain (PFP)",
+    "variant_tags": ["daily", "overuse"],
+    "complaint_cn": "右膝前方痛，下楼和久坐起立更痛。",
+    "initial_story_cn": "患者（24岁）近5周右膝前方疼痛，跑步量从每周5km增加到20km后出现。下楼、深蹲、久坐后起立（电影院征）更痛。无明显肿胀，无卡锁。",
+    "key_terms_en": ["PFP", "load management"],
+    "include_red_flags_ok": false,
+    "history_by_topic": {
+      "mechanism": "跑量增加后逐渐出现，无外伤。",
+      "location": "髌骨周围/膝前方弥散性痛。",
+      "aggravating": "下楼、深蹲、长时间坐后起立、跑步下坡。",
+      "easing": "减少跑量、短暂休息可缓解。",
+      "24h": "活动相关，晨僵不明显。",
+      "neuro": "无麻木刺痛。",
+      "red_flags": "无发热、无红肿热痛明显、无夜间静息痛。",
+      "past": "无明显膝伤史。",
+      "goals": "恢复跑步与下楼不痛。"
+    },
+    "exam_evidence_table": {
+      "step_down": { "result": "positive", "interp_cn": "下台阶诱发膝前痛，符合髌股负荷相关疼痛。"},
+      "single_leg_squat": { "result": "positive", "interp_cn": "单腿下蹲出现膝前痛，支持PFP。"},
+      "patellar_grind": { "result": "equivocal", "interp_cn": "可能轻度不适，但该试验特异性有限，需结合负荷诱发特征。"},
+      "effusion_bulge": { "result": "negative", "interp_cn": "无明显积液，不支持急性结构性损伤为主。"}
+    }
+  },
+  {
+    "id": "kn_pfp_002",
+    "region": "knee",
+    "pattern_truth_cn": "髌股疼痛模式（久坐/力量耐力不足相关）",
+    "pattern_truth_en": "PFP (endurance-related)",
+    "variant_tags": ["daily"],
+    "complaint_cn": "左膝前方痛，坐久了站起来和下楼更痛。",
+    "initial_story_cn": "患者（30岁）办公室久坐，近2月出现左膝前方痛。久坐后起立、下楼更明显。跑步不多，无外伤史。偶有膝周围紧张感。",
+    "key_terms_en": ["PFP"],
+    "include_red_flags_ok": false,
+    "history_by_topic": {
+      "mechanism": "久坐+近期活动减少后逐渐出现。",
+      "location": "膝前方髌骨周围。",
+      "aggravating": "久坐起立、下楼、半蹲。",
+      "easing": "活动热身后略好，避免久坐更好。",
+      "24h": "白天坐久后加重。",
+      "neuro": "无。",
+      "red_flags": "无红肿热痛明显。",
+      "past": "无。",
+      "goals": "上下楼与久坐后起立不痛。"
+    },
+    "exam_evidence_table": {
+      "single_leg_squat": { "result": "positive", "interp_cn": "单腿下蹲诱发膝前痛。"},
+      "step_down": { "result": "positive", "interp_cn": "下台阶诱发症状。"},
+      "knee_rom": { "result": "negative", "quant": { "flexion_deg": 135, "extension_deg": 0 }, "interp_cn": "ROM基本正常，提示不是以关节活动度受限为主。"}
+    }
+  },
+  {
+    "id": "kn_pt_001",
+    "region": "knee",
+    "pattern_truth_cn": "髌腱负荷相关疼痛模式（跳跃膝）",
+    "pattern_truth_en": "Patellar tendinopathy",
+    "variant_tags": ["sport", "overuse"],
+    "complaint_cn": "膝盖髌骨下方点痛，跳跃和落地更痛。",
+    "initial_story_cn": "患者（19岁）打篮球，近6周膝前下方（髌骨下缘）点痛，起跳与落地后更明显。热身后稍好，但训练后加重。无肿胀、无卡锁。",
+    "key_terms_en": ["patellar tendinopathy", "load management"],
+    "include_red_flags_ok": false,
+    "history_by_topic": {
+      "mechanism": "跳跃训练量增加后逐渐出现。",
+      "location": "髌骨下缘到髌腱近端点痛。",
+      "aggravating": "起跳、落地、跑动急停、下蹲起身。",
+      "easing": "减少跳跃负荷、冰敷短暂缓解。",
+      "24h": "活动相关，训练后更明显。",
+      "neuro": "无。",
+      "red_flags": "无。",
+      "past": "无。",
+      "goals": "继续打球但不痛。"
+    },
+    "exam_evidence_table": {
+      "patellar_tendon_palpation": { "result": "positive", "interp_cn": "髌腱近端点压痛典型。"},
+      "decline_squat": { "result": "positive", "interp_cn": "下斜板下蹲增加髌腱负荷，诱发典型疼痛。"},
+      "effusion_bulge": { "result": "negative", "interp_cn": "无明显积液。"}
+    }
+  },
+  {
+    "id": "kn_oa_001",
+    "region": "knee",
+    "pattern_truth_cn": "膝骨关节炎负荷相关疼痛模式",
+    "pattern_truth_en": "Knee osteoarthritis pattern",
+    "variant_tags": ["daily"],
+    "complaint_cn": "膝内侧酸痛，走久或上下楼后更明显。",
+    "initial_story_cn": "患者（58岁）近1年膝内侧酸痛，走久、上下楼后更明显，休息缓解。晨僵<30分钟。偶有轻微肿胀感但不明显。无明显外伤史。",
+    "key_terms_en": ["knee OA", "load management"],
+    "include_red_flags_ok": false,
+    "history_by_topic": {
+      "mechanism": "逐渐出现，长期负荷相关。",
+      "location": "膝内侧为主。",
+      "aggravating": "久走、久站、上下楼、蹲起。",
+      "easing": "休息、热敷、减少负荷。",
+      "24h": "活动相关，晨僵短暂。",
+      "neuro": "无。",
+      "red_flags": "无明显红肿热痛急性发作。",
+      "past": "体重增加；既往轻度膝伤史。",
+      "goals": "走路与上下楼更轻松。"
+    },
+    "exam_evidence_table": {
+      "knee_rom": { "result": "equivocal", "quant": { "flexion_deg": 120, "extension_deg": -5 }, "interp_cn": "轻度伸直受限可见于OA，但需结合疼痛与功能。"},
+      "effusion_bulge": { "result": "equivocal", "interp_cn": "偶有轻度积液感并不罕见。"},
+      "joint_line_tenderness": { "result": "positive", "interp_cn": "内侧关节线压痛，符合内侧负荷相关模式（可见于OA/退变）。"}
+    }
+  },
+  {
+    "id": "kn_men_deg_001",
+    "region": "knee",
+    "pattern_truth_cn": "退变性半月板相关模式（以内侧痛为主）",
+    "pattern_truth_en": "Degenerative meniscal pattern",
+    "variant_tags": ["daily"],
+    "complaint_cn": "膝内侧痛，扭转时更痛，偶有轻微“卡一下”。",
+    "initial_story_cn": "患者（46岁）无明显外伤，近3个月膝内侧痛，蹲起扭转或转身时更痛。偶有轻微“卡一下”但很快能动。无明显肿胀，无真正锁膝。",
+    "key_terms_en": ["meniscus", "Thessaly"],
+    "include_red_flags_ok": false,
+    "history_by_topic": {
+      "mechanism": "逐渐出现，无明确外伤。",
+      "location": "膝内侧关节线附近。",
+      "aggravating": "扭转、蹲起转身、下坡。",
+      "easing": "避免扭转、休息。",
+      "24h": "活动相关。",
+      "neuro": "无。",
+      "red_flags": "无急性红肿热痛，无发热。",
+      "past": "久坐少动，近期体重上升。",
+      "goals": "蹲起转身不痛，恢复日常。"
+    },
+    "exam_evidence_table": {
+      "thessaly": { "result": "positive", "interp_cn": "负重扭转诱发内侧关节线痛，支持半月板相关模式。"},
+      "joint_line_tenderness": { "result": "positive", "interp_cn": "关节线压痛增加半月板/退变相关可能。"},
+      "mcmurray": { "result": "equivocal", "interp_cn": "可轻度不适但无明确弹响，符合退变性而非急性撕裂特征。"},
+      "effusion_bulge": { "result": "negative", "interp_cn": "无明显积液。"}
+    }
+  },
+  {
+    "id": "kn_mcl_001",
+    "region": "knee",
+    "pattern_truth_cn": "MCL 损伤/内侧不稳模式（轻-中度）",
+    "pattern_truth_en": "MCL sprain pattern",
+    "variant_tags": ["sport", "trauma"],
+    "complaint_cn": "膝内侧痛，外翻应力时明显。",
+    "initial_story_cn": "患者（27岁）踢球时膝外侧被撞，随后出现膝内侧痛。走路尚可但转身与外翻压力更痛。轻度肿胀感，无卡锁。",
+    "key_terms_en": ["MCL", "valgus stress"],
+    "include_red_flags_ok": false,
+    "history_by_topic": {
+      "mechanism": "外侧撞击导致外翻应力。",
+      "location": "膝内侧局部痛。",
+      "aggravating": "转身、变向、外翻应力。",
+      "easing": "休息、支具后缓解。",
+      "24h": "急性后数天内较明显。",
+      "neuro": "无。",
+      "red_flags": "无发热。",
+      "past": "无。",
+      "goals": "恢复运动与稳定感。"
+    },
+    "exam_evidence_table": {
+      "valgus_stress": { "result": "positive", "interp_cn": "外翻应力诱发内侧痛/轻度松弛，支持MCL损伤。"},
+      "varus_stress": { "result": "negative", "interp_cn": "不支持外侧副韧带为主。"},
+      "effusion_bulge": { "result": "equivocal", "interp_cn": "可有轻度积液感，常见于急性损伤后。"}
+    }
+  },
+  {
+    "id": "kn_acl_001",
+    "region": "knee",
+    "pattern_truth_cn": "ACL 损伤筛查/不稳模式（需转诊意识）",
+    "pattern_truth_en": "ACL injury pattern (referral awareness)",
+    "variant_tags": ["sport", "trauma"],
+    "complaint_cn": "膝关节扭转后不稳，肿胀很快出现。",
+    "initial_story_cn": "患者（23岁）比赛中落地时膝内扣扭转，听到“啪”一声，随后几小时内膝明显肿胀并有不稳感。现在走路尚可但不敢变向。此为教育模拟：需要训练转诊意识。",
+    "key_terms_en": ["ACL", "Lachman", "effusion"],
+    "include_red_flags_ok": true,
+    "history_by_topic": {
+      "mechanism": "落地扭转（pivot）伴听到pop。",
+      "location": "膝深部不适与不稳。",
+      "aggravating": "变向、急停。",
+      "easing": "休息与支具。",
+      "24h": "急性肿胀在数小时内出现。",
+      "neuro": "无。",
+      "red_flags": "急性大量积液/明显不稳提示需要进一步评估与转诊。",
+      "past": "无。",
+      "goals": "恢复运动，但也担心严重损伤。"
+    },
+    "exam_evidence_table": {
+      "lachman": { "result": "positive", "interp_cn": "前向移位增加且终点感变软，提示ACL损伤可能。"},
+      "anterior_drawer": { "result": "equivocal", "interp_cn": "可能受疼痛/肌紧张影响，Lachman通常更敏感。"},
+      "effusion_bulge": { "result": "positive", "interp_cn": "短时间内明显积液支持急性内部结构损伤，需转诊意识。"}
+    }
+  },
+  {
+    "id": "kn_pfp_003",
+    "region": "knee",
+    "pattern_truth_cn": "髌股疼痛模式（下坡/下楼敏感）",
+    "pattern_truth_en": "PFP (downhill sensitive)",
+    "variant_tags": ["sport"],
+    "complaint_cn": "下坡跑后膝前痛，特别是下楼。",
+    "initial_story_cn": "患者（33岁）周末越野跑后出现膝前痛，尤其下坡与下楼明显，上坡相对好一些。无肿胀卡锁。",
+    "key_terms_en": ["PFP"],
+    "include_red_flags_ok": false,
+    "history_by_topic": {
+      "mechanism": "下坡跑负荷增加后出现。",
+      "location": "膝前方髌骨周围。",
+      "aggravating": "下坡、下楼、深蹲。",
+      "easing": "减少下坡跑、短期降低跑量。",
+      "24h": "活动相关。",
+      "neuro": "无。",
+      "red_flags": "无。",
+      "past": "无。",
+      "goals": "恢复越野跑。"
+    },
+    "exam_evidence_table": {
+      "step_down": { "result": "positive", "interp_cn": "下台阶诱发膝前痛。"},
+      "single_leg_squat": { "result": "positive", "interp_cn": "单腿下蹲诱发症状。"},
+      "knee_rom": { "result": "negative", "quant": { "flexion_deg": 140, "extension_deg": 0 }, "interp_cn": "ROM正常。"}
+    }
+  },
+  {
+    "id": "kn_pt_002",
+    "region": "knee",
+    "pattern_truth_cn": "髌腱负荷相关疼痛模式（慢性/低激惹）",
+    "pattern_truth_en": "Patellar tendinopathy (chronic)",
+    "variant_tags": ["sport"],
+    "complaint_cn": "髌腱点痛，开始运动时更明显，热身后好一些。",
+    "initial_story_cn": "患者（29岁）近半年断断续续髌腱点痛。每次开始跑跳时更痛，热身后减轻，但训练量大时第二天加重。无肿胀卡锁。",
+    "key_terms_en": ["tendinopathy"],
+    "include_red_flags_ok": false,
+    "history_by_topic": {
+      "mechanism": "长期跑跳负荷累积。",
+      "location": "髌腱近端点痛。",
+      "aggravating": "起跳、跑步、深蹲。",
+      "easing": "热身后短暂缓解；调整训练计划好转。",
+      "24h": "负荷相关。",
+      "neuro": "无。",
+      "red_flags": "无。",
+      "past": "既往有跟腱紧张史。",
+      "goals": "能维持训练并减少复发。"
+    },
+    "exam_evidence_table": {
+      "patellar_tendon_palpation": { "result": "positive", "interp_cn": "近端点压痛仍明显。"},
+      "decline_squat": { "result": "positive", "interp_cn": "负荷增加诱发典型疼痛。"}
+    }
+  },
+  {
+    "id": "kn_oa_002",
+    "region": "knee",
+    "pattern_truth_cn": "膝骨关节炎负荷相关疼痛模式（轻度）",
+    "pattern_truth_en": "Knee OA (mild) pattern",
+    "variant_tags": ["daily"],
+    "complaint_cn": "走久膝酸胀，休息后缓解。",
+    "initial_story_cn": "患者（62岁）近2年膝酸胀，走久后加重，休息缓解。晨僵短暂。最近活动减少后感觉更无力。",
+    "key_terms_en": ["OA", "exercise therapy"],
+    "include_red_flags_ok": false,
+    "history_by_topic": {
+      "mechanism": "长期逐渐出现。",
+      "location": "膝周围酸胀，可偏内侧。",
+      "aggravating": "久走久站、上下楼。",
+      "easing": "休息、热敷。",
+      "24h": "活动相关。",
+      "neuro": "无。",
+      "red_flags": "无急性红肿热痛。",
+      "past": "高血压；体重偏高。",
+      "goals": "走路更久、上下楼更轻松。"
+    },
+    "exam_evidence_table": {
+      "knee_rom": { "result": "equivocal", "quant": { "flexion_deg": 125, "extension_deg": -3 }, "interp_cn": "轻度受限可见于OA。"},
+      "joint_line_tenderness": { "result": "equivocal", "interp_cn": "可轻度压痛。"}
+    }
+  }
+]
+
