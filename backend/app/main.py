@@ -29,7 +29,15 @@ load_dotenv()
 app = FastAPI(title="AI PT Education Platform API", version="0.1.0")
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000", "https://ai-pt-edu-mvp.vercel.app", "https://*.vercel.app"],
+    allow_origins=[
+        "http://localhost:3000",
+        "http://127.0.0.1:3000",
+        "https://ai-pt-edu-mvp.vercel.app",
+        "https://ai-pt-edu-ggejw2a88-mzks-projects-d82f45f2.vercel.app",
+        "https://ai-pt-edu-mvp-git-main-mzks-projects-d82f45f2.vercel.app",
+        "https://ai-pt-edu-mvp-mzks-projects-d82f45f2.vercel.app",
+    ],
+    allow_origin_regex=r"^https://.*\.vercel\.app$",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
