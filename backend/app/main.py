@@ -1,7 +1,10 @@
 from __future__ import annotations
 
+import logging
 import random
 from typing import Any
+
+logger = logging.getLogger(__name__)
 
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
@@ -49,6 +52,7 @@ case_seeds = load_case_seeds()
 test_catalog = load_test_catalog()
 tests_by_id, synonym_to_id = build_test_index(test_catalog)
 claude = ClaudeClient()
+zhipu = ZhipuClient()
 
 
 def pick_seed(payload: AttemptCreateIn) -> Any:
@@ -255,17 +259,23 @@ async def generate_feedback(attempt_id: str) -> Attempt:
         "score_hint": scores.model_dump(),
     }
 
-    # 优先智谱（ZHIPU_API_KEY），否则 Claude，否则本地模板
+    # 优先智谱（ZHIPU_API_KEY），否则 Claude，否则本地模板（LLM 失败不抛错，避免无 CORS 的 500）
     llm_text: str | None = None
     llm_label = ""
     if zhipu.enabled:
-        llm_text = await zhipu.complete_text(system=system, user=str(user), max_tokens=2000)
-        if llm_text:
-            llm_label = "智谱 GLM"
+        try:
+            llm_text = await zhipu.complete_text(system=system, user=str(user), max_tokens=2000)
+            if llm_text:
+                llm_label = "智谱 GLM"
+        except Exception as e:
+            logger.exception("Zhipu feedback failed: %s", e)
     if not llm_text and claude.enabled:
-        llm_text = await claude.complete_text(system=system, user=str(user), max_tokens=1300)
-        if llm_text:
-            llm_label = "Claude"
+        try:
+            llm_text = await claude.complete_text(system=system, user=str(user), max_tokens=1300)
+            if llm_text:
+                llm_label = "Claude"
+        except Exception as e:
+            logger.exception("Claude feedback failed: %s", e)
 
     if llm_text:
         best = llm_text
