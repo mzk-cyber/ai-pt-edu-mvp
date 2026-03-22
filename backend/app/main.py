@@ -8,6 +8,7 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
 from .ai_claude import ClaudeClient
+from .ai_zhipu import ZhipuClient
 from .data_loader import load_case_seeds, load_test_catalog
 from .models import (
     AskedQuestion,
@@ -35,7 +36,7 @@ app.add_middleware(
         "https://ai-pt-edu-mvp.vercel.app",
         "https://ai-pt-edu-ggejw2a88-mzks-projects-d82f45f2.vercel.app",
         "https://ai-pt-edu-mvp-git-main-mzks-projects-d82f45f2.vercel.app",
-        "https://ai-pt-edu-mvp-mzks-projects-d82f45f2.vercel.app",
+        "https://ai-pt-edu-mvp-mzks-projects-d82f45f2.vercel.app"
     ],
     allow_origin_regex=r"^https://.*\.vercel\.app$",
     allow_credentials=True,
@@ -254,11 +255,21 @@ async def generate_feedback(attempt_id: str) -> Attempt:
         "score_hint": scores.model_dump(),
     }
 
-    claude_text = await claude.complete_text(system=system, user=str(user), max_tokens=1300)
+    # 优先智谱（ZHIPU_API_KEY），否则 Claude，否则本地模板
+    llm_text: str | None = None
+    llm_label = ""
+    if zhipu.enabled:
+        llm_text = await zhipu.complete_text(system=system, user=str(user), max_tokens=2000)
+        if llm_text:
+            llm_label = "智谱 GLM"
+    if not llm_text and claude.enabled:
+        llm_text = await claude.complete_text(system=system, user=str(user), max_tokens=1300)
+        if llm_text:
+            llm_label = "Claude"
 
-    if claude_text:
-        best = claude_text
-        reasoning = "（由 Claude 生成，详见上方讲评内容中的推理与依据引用）"
+    if llm_text:
+        best = llm_text
+        reasoning = f"（由 {llm_label} 生成，详见上方讲评内容中的推理与依据引用）"
         strengths = ["结构清晰地完成了病例推理流程。", "能将病史与检查结果结合形成结论。", "治疗计划包含可执行要点。"]
         improvements = ["把每个检查与要区分的假设明确对应。", "结论里补充阶段/激惹性判断与复评指标。", "加强红旗/转诊阈值的表述。"]
     else:
